@@ -15,8 +15,7 @@ int main()
 	draw_ship(x,y);
 	do
 	{
-		printf("1\n");
-		if (_kbhit)
+		if (_kbhit())
 		{
 			ch = _getch();
 			if (ch == 'a')
