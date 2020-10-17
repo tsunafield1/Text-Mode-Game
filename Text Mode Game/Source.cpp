@@ -36,11 +36,11 @@ int main()
 			}
 			if (ch == 'a')
 			{
-				direc = 1;
+				if(x>0)direc = 1;
 			}
 			if (ch == 'd')
 			{
-				direc = 2;
+				if(x<72)direc = 2;
 			}
 			if (ch == 's')
 			{
